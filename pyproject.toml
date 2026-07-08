@@ -38,6 +38,8 @@ dev = [
 sales-agent = "sales_agent_lab.cli:main"
 
 [tool.uv]
+package = true
+
 dev-dependencies = [
     "pytest>=8.2",
     "pytest-asyncio>=0.23",
